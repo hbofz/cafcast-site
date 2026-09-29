@@ -35,14 +35,14 @@
 
   <section id="privacy">
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective September 27, 2026</p>
+    <p class="meta">Effective September 28, 2026</p>
 
     <p>CafCast is a free iPhone app for rating dishes at Stav Hall while a meal is being served. It is an independent project. This policy explains what the app collects, why, and how to delete it.</p>
 
     <h2>The short version</h2>
     <ul>
       <li>There is no sign-up. We never ask for your name, email, phone number, or password.</li>
-      <li>We store an anonymous account ID, your votes, a record of when the app is opened and of the announcements it shows you, the IP address your sign-in session connects from, and, only if you turn on notifications, a push token.</li>
+      <li>We store an anonymous account ID, your votes, a record of when the app is opened and of the announcements it shows you, the IP address your sign-in session connects from, and, only if you turn on notifications, a push token and your notification settings.</li>
       <li>No ads, no tracking across other apps or websites, and we never sell your data.</li>
       <li>You can delete everything from inside the app at any time.</li>
     </ul>
@@ -51,7 +51,8 @@
     <ul>
       <li><strong>Anonymous account ID.</strong> The first time you open CafCast, our backend creates a random account ID for you. It is not connected to your name, email, or Apple ID. The app keeps its sign-in in your iPhone's Keychain, so the same ID usually comes back if you delete and reinstall the app.</li>
       <li><strong>Your votes.</strong> For each dish you rate: the dish, your rating (Loved it, Fine, or Nope), any mood tags you pick from a fixed list, and when you voted. Votes are stored with your account ID so you get one vote per dish and can change or remove it. Other people only ever see totals, never who voted what. We also note which account cast the first vote on a dish, so the app can show that person a "first" badge.</li>
-      <li><strong>Push token (optional).</strong> If you tap "Notify me" and allow notifications, Apple gives the app a device token, which we store with your account ID so we can send you one notification when each meal opens.</li>
+      <li><strong>Push token (optional).</strong> If you tap "Notify me" and allow notifications, Apple gives the app a device token, which we store with your account ID so we can send you a notification when each meal opens. That notification can mention a dish you loved before or that one vote keeps your streak going. If you leave the "Morning heads-up" setting on, we also send one notification on mornings when a dish you loved is on the menu, and we record which days we sent it so it goes out at most once a day. You can turn the morning heads-up off on the streak page in the app.</li>
+      <li><strong>Your streak.</strong> Your streak, your calendar of days you voted, and the dishes you rate most are worked out from your votes each time you open that page. We do not store them separately.</li>
       <li><strong>App usage.</strong> To see whether CafCast is useful, we record when the app is opened, which screen it opened on, whether notifications are allowed, whether you tapped a meal notification, and, in older versions of the app, whether you chose to look at the board without voting. These are counts of what happens in the app, stored with your account ID. We do not record anything you type, and there is no third-party analytics service in the app.</li>
       <li><strong>Announcements.</strong> CafCast sometimes shows a short message from us, such as a note about Stav's hours or a holiday. For each one, we record whether you saw it, tapped its button, or closed it, stored with your account ID. This keeps a message you closed from showing again and tells us whether it was useful. Some announcements have a button that opens a web page, such as a feedback form; that page is run by whoever hosts it, and its own privacy policy applies to anything you enter there.</li>
       <li><strong>Connection data.</strong> When the app talks to our backend, we record your IP address and basic device and app information with your sign-in session. This is used to keep the service running and secure. We do not use it to find your location.</li>
@@ -65,9 +66,10 @@
     <ul>
       <li>To show the live board and each dish's verdict.</li>
       <li>To keep it to one vote per dish per account and let you change or remove your vote.</li>
-      <li>To show you your own votes on the board.</li>
+      <li>To show you your own votes on the board, your streak, and the dishes you rate most.</li>
+      <li>To point out, on the menu and in notifications, dishes you loved before.</li>
       <li>To show announcements, and not show you one again after you close it.</li>
-      <li>To send meal notifications, if you turned them on.</li>
+      <li>To send meal notifications and the morning heads-up, if you turned notifications on.</li>
       <li>To prevent abuse and keep the service working.</li>
       <li>To count how many students use the app, how many vote, and whether notifications help, so we can improve it.</li>
     </ul>
@@ -76,16 +78,16 @@
     <h2>Who else receives data</h2>
     <ul>
       <li><strong>Supabase</strong> hosts our database and sign-in service on servers in the United States and processes this data only to run CafCast for us.</li>
-      <li><strong>Apple Push Notification service</strong> receives your push token and the notification text to deliver meal notifications.</li>
+      <li><strong>Apple Push Notification service</strong> receives your push token and the notification text to deliver notifications.</li>
     </ul>
     <p>These providers are required to protect the data at least as well as this policy describes. We do not sell, rent, or share your data with anyone else, unless the law requires it.</p>
 
     <h2>How long we keep it</h2>
-    <p>Your account ID, votes, app usage and announcement records, and push token are kept until you delete your data. Votes on past meals are kept so dish scores stay accurate over time. Connection data is stored in our database with your sign-in session and is deleted when you delete your data. Our hosting provider also keeps short-term request logs as part of running the service. A push token is also removed when Apple tells us it is no longer valid, for example after the app is deleted.</p>
+    <p>Your account ID, votes, app usage and announcement records, push token, notification settings, and the record of which days we sent you the morning heads-up are kept until you delete your data. Votes on past meals are kept so dish scores stay accurate over time. Connection data is stored in our database with your sign-in session and is deleted when you delete your data. Our hosting provider also keeps short-term request logs as part of running the service. A push token is also removed when Apple tells us it is no longer valid, for example after the app is deleted.</p>
 
     <h2>Your choices</h2>
     <ul>
-      <li><strong>Delete your data:</strong> in the app, tap the <strong>ⓘ</strong> next to the CafCast name, then <strong>Delete my data</strong>. This permanently deletes your account ID, every vote and mood tag you have cast (including past meals), your "first" badges, your app usage and announcement records, and your push token. The app then starts over as a new anonymous voter. This does not turn notifications off: if notifications are still allowed for CafCast in the iPhone Settings app, the app registers a new push token for the new account and meal notifications keep coming.</li>
+      <li><strong>Delete your data:</strong> in the app, tap the <strong>ⓘ</strong> next to the CafCast name, then <strong>Delete my data</strong>. This permanently deletes your account ID, every vote and mood tag you have cast (including past meals), your "first" badges, your app usage and announcement records, your push token, your notification settings, and the record of morning heads-ups we sent you. Your streak goes too, since it comes from your votes. The app then starts over as a new anonymous voter. This does not turn notifications off: if notifications are still allowed for CafCast in the iPhone Settings app, the app registers a new push token for the new account and meal notifications keep coming.</li>
       <li><strong>Remove a single vote:</strong> open the dish during the meal and tap "Remove my vote".</li>
       <li><strong>Stop notifications:</strong> turn them off for CafCast in the iPhone Settings app. Deleting your data does not stop them on its own, because the app signs in as a new anonymous voter and registers a new push token.</li>
       <li><strong>Questions or help deleting data:</strong> email <a href="mailto:cafcast.app@gmail.com">cafcast.app@gmail.com</a>.</li>
@@ -107,12 +109,14 @@
     <p class="email"><a href="mailto:cafcast.app@gmail.com">cafcast.app@gmail.com</a></p>
 
     <h2>How CafCast works</h2>
-    <p>While a meal is being served at Stav Hall, tap a dish you ate and pick Loved it, Fine, or Nope. Rating one dish opens the full live board for the rest of the day. Each dish gets a verdict from everyone's votes: Worth it, Fine, or Skip.</p>
+    <p>While a meal is being served at Stav Hall, tap a dish you ate and pick Loved it, Fine, or Nope. The live board is open to everyone, whether or not you vote. Each dish gets a verdict from everyone's votes: Worth it, Fine, or Skip.</p>
 
     <h2>Common questions</h2>
     <p><strong>Why can't I vote right now?</strong><br>Voting is only open while a meal is being served, so scores come from people eating that meal. Between meals the app shows when the next meal opens and what is on the menu.</p>
     <p><strong>The app says today's menu isn't up yet.</strong><br>We read the menu from Bon Appétit's public Stav Hall page. If it hasn't posted yet, tap "Check again" in a little while.</p>
     <p><strong>How do I get notified when a meal opens?</strong><br>Between meals, tap "Notify me" and allow notifications. To stop them, turn off notifications for CafCast in the iPhone Settings app.</p>
+    <p><strong>How does my streak work?</strong><br>Rate at least one dish on any day Stav is open and your streak grows by one. Days Stav is closed never break it. For every 7 days in a row you earn a rest day (you can hold 2), and it covers one day you miss. Tap the flame at the top of the app to see your calendar.</p>
+    <p><strong>What is the morning heads-up?</strong><br>If notifications are on, CafCast can send one notification in the morning when a dish you loved before is on that day's menu. Turn it off on the streak page (tap the flame).</p>
     <p><strong>How do I delete my data?</strong><br>Tap the ⓘ next to the CafCast name, then Delete my data. See the <a href="#privacy">Privacy Policy</a> for what is deleted.</p>
     <p><strong>Do I need an account?</strong><br>No. The app creates an anonymous account automatically. There is no sign-up and no password.</p>
   </section>
